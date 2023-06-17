@@ -58,10 +58,7 @@ public class Example {
 	extent.createTest("add to list").info(MarkupHelper.createUnorderedList(mouni));
 	extent.createTest("Add hash values").log(Status.PASS, "i am goonna add vales").pass(MarkupHelper.createOrderedList(mapData));
 	
-	extent.flush();
-	
-	
-	
+	extent.flush();;	
 
 	}
 }
